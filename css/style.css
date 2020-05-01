@@ -1,0 +1,63 @@
+  
+
+
+/** HEADER **/
+#header-nav {background-color: black}
+
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+body {
+  font-size: 13px;
+  color: grey;
+  background-color: blue;
+  font-family: cursive;
+}
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Header */
+
+  /* Home Page */
+
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+ 
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  
+  /* End Header */
+
+  /* Home Page */
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+
+  /* End Header */
+  
+  /* Home page */
+
+}
