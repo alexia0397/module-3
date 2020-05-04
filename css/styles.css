@@ -1,20 +1,23 @@
   
+*{font-family: cursive}
 
 
 /** HEADER **/
-#header-nav {background-color: black}
 
+header{background-color: beige}
+
+#header-nav {background-color: orange;
+border-radius: 10px;}
 
 /* END HEADER */
 
 /* HOME PAGE */
-
-body {
-  font-size: 13px;
-  color: grey;
-  background-color: blue;
-  font-family: cursive;
-}
+body {background-color: beige;}
+section {background-color: white;
+border-radius: 10px;
+margin: 5px 5px 5px 5px;
+padding: 10px;}
+h1 {color: grey;}
 /* END HOME PAGE */
 
 /********** Large devices only **********/
