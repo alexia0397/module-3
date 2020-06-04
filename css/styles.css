@@ -1,15 +1,16 @@
+
 *{
-	font-family: cursive;
+	font-family: 'Balsamiq Sans';
 }
 
 body{
 	font-size:16px;
 	color: black;
-	background-color: blue;
+	background-color: white;
 }
 
 #header-nav{
-	background-color: orange;
+	background-color: gray;
 	border:1.5px solid black;
 	padding-right:300px;
 	padding-bottom:20px;
