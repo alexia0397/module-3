@@ -1,66 +1,84 @@
-  
-*{font-family: cursive}
-
-
-/** HEADER **/
-
-header{background-color: beige}
-
-#header-nav {background-color: orange;
-border-radius: 10px;}
-
-/* END HEADER */
-
-/* HOME PAGE */
-body {background-color: beige;}
-section {background-color: white;
-border-radius: 10px;
-margin: 5px 5px 5px 5px;
-padding: 10px;}
-h1 {color: grey;}
-/* END HOME PAGE */
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-
+*{
+	font-family: 'Balsamiq Sans';
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-
-  /* End Header */
-
-  /* Home Page */
-
-  /* End Home Page */
+body{
+	font-size:16px;
+	color: black;
+	background-color: white;
 }
 
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
- 
-  /* End Home Page */
-
+#header-nav{
+	background-color: gray;
+	border:1.5px solid black;
+	padding-right:300px;
+	padding-bottom:20px;
 }
 
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  /* Header */
-  
-  /* End Header */
+div.container{
+	font-size:160%;
+	
+}
 
-  /* Home Page */
+#menubar{
+	font-size:180%;
+	padding-top:30px;
+}
 
+div#boom.container{
+	background-color: gray;
+	text-align: center;
+	margin-top:60px;
+}
+
+div#bam{
+	font-size: 80%;
+	font-weight:350;
 }
 
 
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  /* Header */
 
-  /* End Header */
-  
-  /* Home page */
+.navbar-dark {
+     background-color: gray!important;
+     }
 
+
+
+nav#haha{
+	background-color: gray!important;
+
+	right:0;
+	margin-right:-300px;
+	object-position: right;
+}
+
+button.navbar-toggler{
+	float:right;
+
+}
+
+ul{
+	text-align: center;
+	border:1px solid black;
+}
+
+li{
+	text-align: center;
+	color: black;
+	border:1px solid black;
+	text-decoration-color: black;
+	background-color:rgb(218, 215, 229);
+}
+
+a{
+	color:black;
+}
+
+a:hover{
+	background-color: gray;
+	color:white;
+}
+
+.nav-item-active{
+	background-color: black;
 }
