@@ -1,85 +1,181 @@
-
-*{
-	font-family: 'Balsamiq Sans';
+body {
+  font-size: 16px;
+  background-color: #ffff;
+  font-family: 'Oxygen', sans-serif;
 }
 
-body{
-	font-size:16px;
-	color: black;
-	background-color: white;
+/** HEADER **/
+#header-nav {
+  background-color: #ffccff;
+  border-radius: 0;
+  border: 0;
 }
 
-#header-nav{
-	background-color: gray;
-	border:1.5px solid black;
-	padding-right:300px;
-	padding-bottom:20px;
+.para{
+  font-family: Courgette;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00;
+  padding: 10px 20px 10px 20px;
+}
+.container .jumbotron {
+  box-shadow: 0 0 30px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+.navbar-brand {
+  padding-top: 25px;
 }
 
-div.container{
-	font-size:160%;
-	
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Courier New ;
+  color:#ff3399;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  line-height: .75;
 }
-
-#menubar{
-	font-size:180%;
-	padding-top:30px;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
-
-div#boom.container{
-	background-color: gray;
-	text-align: center;
-	margin-top:60px;
-}
-
-div#bam{
-	font-size: 80%;
-	font-weight:350;
-}
-
-
-
-.navbar-dark {
-     background-color: gray!important;
-     }
-
-
-
-nav#haha{
-	background-color: gray!important;
-
-	right:0;
-	margin-right:-300px;
-	object-position: right;
-}
-
-button.navbar-toggler{
-	float:right;
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 15px;
 
 }
-
-ul{
-	text-align: center;
-	border:1px solid black;
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
 }
 
-li{
-	text-align: center;
-	color: black;
-	border:1px solid black;
-	text-decoration-color: black;
-	background-color:rgb(218, 215, 229);
+#nav-list {
+  /*margin-top: 10px;*/
+  color: #ffccff;
+}
+#nav-list a{
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
 }
 
-a{
-	color:black;
+.heading2 {
+  /*font-family:Courier New;*/
+ font-weight: bold;
+ text-align: center;
+ text-shadow: 1px 1px 1px #222;
+ color:#ff3399;
+  font-family: Courgette;
+
 }
 
-a:hover{
-	background-color: gray;
-	color:white;
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/final.jpg') no-repeat;
+    width: 100%;
+    height: 500px;
+  }
+  .para{
+    padding: 0;
+  }
 }
 
-.nav-item-active{
-	background-color: black;
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ 
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/ice.jpg') no-repeat;
+   width: 100%;
+    height: 500px;
+
+  }
+  .para{
+    padding: 0;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/donut_3.jpg') no-repeat;
+    height: 432px;
+  }
+  .para{
+    padding: 0;
+  }
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+    color: #000;
+    font-family: Courgette;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/dino.png') no-repeat;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+  }
+
 }
